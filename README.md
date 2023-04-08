@@ -121,7 +121,8 @@ To use this tool with Docker, follow these steps:
 
 1. Install Docker on your system (if you haven't already).
 2. Clone the repository and navigate to the root folder `harflow3d`.
-3. Build the Docker image:
+3. Download the ONNX model files (see step 1 above).
+4. Build the Docker image:
 
 ```
 docker build -t harflow3d -f docker/Dockerfile .
@@ -129,7 +130,7 @@ docker build -t harflow3d -f docker/Dockerfile .
 
 This will build a Docker image named `harflow3d` using the `Dockerfile` in the `docker` directory.
 
-4. Run the Docker image:
+5. Run the Docker image:
 
 To run the Docker image, you can use the following command:
 
