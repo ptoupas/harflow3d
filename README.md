@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/625183669.svg)](https://zenodo.org/badge/latestdoi/625183669)
+
 # HARFLOW3D
 
 A tool for automated mapping and optimization of 3D-CNNs for HAR onto FPGA devices
