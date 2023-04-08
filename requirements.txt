@@ -1,0 +1,14 @@
+numpy
+wandb
+graphviz
+networkx
+onnx
+onnxsim
+onnxruntime
+onnxoptimizer
+pydot
+scipy
+fpbinary
+xgboost
+matplotlib
+pandas
