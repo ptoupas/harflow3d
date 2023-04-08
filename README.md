@@ -29,8 +29,6 @@ pip install -r requirements.txt
 
 This will install all the required Python packages specified in the `requirements.txt` file.
 
-## System dependencies
-`update this section`
 
 ## Installing fpgaconvnet-optimiser and fpgaconvnet-model
 
@@ -73,11 +71,21 @@ To run the script, simply navigate to the root directory of the `harflow3d` repo
 ./get_onnx_models.sh
 ```
 
-### Step 2 (optional): Re-configure the opimizer configuration
+### Step 2 (optional but **highly recommended**): Initialize wandb
+
+The `harflow3d` tool uses [wandb](https://wandb.ai/site) to store the results of the optimization process. For the best experience and visualization of the results, we recommend that you use wandb. It will provide you with a dashboard with very detailed information about the optimization process and the interpretation of the results.
+To use wandb, you need to create an account and initialize it. After you have created an account, you can initialize wandb by running the following command:
+
+```
+wandb login or wandb init
+```
+This will promt you to enter your wandb API key. You can find your API key by clicking on your profile picture in the top right corner of the wandb dashboard and then clicking on the "Settings" button. You can find more information about wandb initialization [here](https://docs.wandb.ai/quickstart). Note that this step **only needs to be done once**.
+
+### Step 3 (optional): Re-configure the opimizer configuration
 
 The `fpgaconvnet-optimiser` package provides a configuration file that allows you to specify the mapping and optimization parameters. The configuration file is located in the `fpgaconvnet-optimiser/examples/` directory. The default configuration file is named `latency_optimiser_example.toml`. You can edit this file to change the mapping and optimization parameters.
 
-### Step 3: Run the optimiser
+### Step 4: Run the optimiser
 
 To run the optimiser you should navigate to the fpconvnet-optimiser directory and run the following command:
 
@@ -102,7 +110,7 @@ The `run_optimiser.sh` script will run the optimiser with the default configurat
     - `r2plus1d_34`
 - `-n`. This argument allows you to specify the number of times each pair of FPGA-Model will be executed. The default value is `1`. For each pair of FPGA-Model, the optimiser will generate a design and run it `n` times.
 
-### Step 4: Review the results
+### Step 5: Review the results
 The results of the optimization process will be stored in a wandb project named after the name of the tool (harflow3d) followed by the name of the model with a postfix "latency". For example, if you run the optimiser for c3d model, the results will be stored in a wandb project named `harflow3d-c3d-latency`. The wandb project can be accessed by clicking [here](https://wandb.ai/fpgaconvnet/projects). You can find your run by using the filters and tools provided by wandb. For example, you can filter the runs by model name, platform name, etc. You can also use the wandb tools to compare the results of different runs.
 
 # Docker setup
@@ -112,13 +120,21 @@ Alternatively, you can use Docker to run this tool. Docker allows you to run the
 To use this tool with Docker, follow these steps:
 
 1. Install Docker on your system (if you haven't already).
-2. Clone the repository and navigate to the docker folder `./docker`.
+2. Clone the repository and navigate to the root folder `harflow3d`.
 3. Build the Docker image:
 
 ```
-docker build -t harflow3d .
+docker build -t harflow3d -f docker/Dockerfile .
+```
+
+This will build a Docker image named `harflow3d` using the `Dockerfile` in the `docker` directory.
+
+4. Run the Docker image:
+
+To run the Docker image, you can use the following command:
+
+```
+docker run -it --rm harflow3d /bin/bash
 ```
 
 This will start a container and give you access to a shell inside the container. From there, you can run the `harflow3d` tool as usual.
-
-Note: If you need to mount a local directory inside the container (for example, to access input data or output files), you can use the `-v` flag when running the `docker run` command. See the Docker documentation for more information.
