@@ -150,6 +150,7 @@ If you find this project useful in your research, please consider cite:
 @article{toupas2023harflow3d,
   title={HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices},
   author={Toupas, Petros and Montgomerie-Corcoran, Alexander and Bouganis, Christos-Savvas and Tzovaras, Dimitrios},
+  doi={10.48550/arXiv.2303.17218},
   journal={arXiv preprint arXiv:2303.17218},
   year={2023}
 }
