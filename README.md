@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/625183669.svg)](https://zenodo.org/badge/latestdoi/625183669)
+
 # HARFLOW3D
 
 A tool for automated mapping and optimization of 3D-CNNs for HAR onto FPGA devices
@@ -138,7 +140,7 @@ To run the Docker image, you can use the following command:
 docker run -it --rm harflow3d /bin/bash
 ```
 
-This will start a container and give you access to a shell inside the container. From there, you can run the `harflow3d` tool as usual.
+This will start a container and give you access to a shell inside the container. From there, you can run the `harflow3d` tool as usual (see step 4 above). Remember that you will need to initialize wandb inside the container with your API key as explained above in step 2.
 
 # Citation
 
