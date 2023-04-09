@@ -17,7 +17,6 @@ To use this tool, you will need to meet the following requirements:
 
 - Python 3.9 or higher
 - Install python packages listed in `requirements.txt`
-- Install system dependencies listed in the relevant section below
 - Install fpgaconvnet-optimiser and fpconvnet-model packages as described in the relevant section below
 
 ## Python dependencies
