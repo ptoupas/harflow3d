@@ -139,3 +139,16 @@ docker run -it --rm harflow3d /bin/bash
 ```
 
 This will start a container and give you access to a shell inside the container. From there, you can run the `harflow3d` tool as usual.
+
+# Citation
+
+If you find this project useful in your research, please consider cite:
+
+```BibTeX
+@article{toupas2023harflow3d,
+  title={HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices},
+  author={Toupas, Petros and Montgomerie-Corcoran, Alexander and Bouganis, Christos-Savvas and Tzovaras, Dimitrios},
+  journal={arXiv preprint arXiv:2303.17218},
+  year={2023}
+}
+```

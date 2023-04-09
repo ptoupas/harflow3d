@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software in your work, please cite it using the following metadata."
+authors:
+- family-names: "Petros"
+  given-names: "Toupas"
+- family-names: "Alexander"
+  given-names: "Montgomerie-Corcoran"
+title: "harflow3d"
+version: 0.1
+doi: 10.5281/zenodo.7810779
+date-released: 2023-04-08
+url: "https://github.com/ptoupas/harflow3d"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Petros"
+    given-names: "Toupas"
+  - family-names: "Alexander"
+    given-names: "Montgomerie-Corcoran"
+  - family-names: "Christos-Savvas"
+    given-names: "Bouganis"
+  - family-names: "Dimitrios"
+    given-names: "Tzovaras"
+  doi: 10.48550/arXiv.2303.17218
+  month: 4
+  start: 1 # First page number
+  end: 11 # Last page number
+  title: "HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices"
+  year: 2023
