@@ -11,7 +11,7 @@ authors:
   given-names: "Dimitrios"
 title: "HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices"
 version: 0.1.1
-doi: 10.5281/zenodo.7811984
+doi: 10.5281/zenodo.7810778
 date-released: 2023-04-08
 url: "https://github.com/ptoupas/harflow3d"
 preferred-citation:
