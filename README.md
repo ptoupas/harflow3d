@@ -115,6 +115,13 @@ The `run_optimiser.sh` script will run the optimiser with the default configurat
 ### Step 5: Review the results
 The results of the optimization process will be stored in a wandb project named after the name of the tool (harflow3d) followed by the name of the model with a postfix "latency". For example, if you run the optimiser for c3d model, the results will be stored in a wandb project named `harflow3d-c3d-latency`. The wandb project can be accessed by clicking [here](https://wandb.ai/fpgaconvnet/projects). You can find your run by using the filters and tools provided by wandb. For example, you can filter the runs by model name, platform name, etc. You can also use the wandb tools to compare the results of different runs.
 
+### Step 6 (optional): Obtaining FPGA Bitstream and Host Code
+After the final configuration of the 3D CNN model is produced by the optimizer, you can request the bitstream and host code necessary to execute the model on a specific FPGA device. To obtain these files, you will need to provide us with the configuration file which can be found under the `fpgaconvnet-optimizer/outputs/{model_name}/{platform_name}/config.json` or the link of the specific run from the `wandb` project page.
+
+Upon request we will generate the bitstream and host code for you using our closed-source backend tool that translates the given configuration of the layers into hardware IPs. We integrate the layers IPs into our proposed Vivado design and provide the final bitstream. Please note that this service is provided on a best-effort basis, and the timeframe for generating the bitstream and host code may vary depending on the complexity of the model and the current workload.
+
+If you are interested in obtaining the bitstream and host code for your model, please contact us at [p.toupas21@imperial.ac.uk or alexander.montgomerie-corcoran15@imperial.ac.uk].
+
 # Docker setup
 
 Alternatively, you can use Docker to run this tool. Docker allows you to run the tool in a self-contained environment without worrying about dependencies or system configuration.
