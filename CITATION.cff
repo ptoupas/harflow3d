@@ -6,7 +6,7 @@ authors:
 - family-names: "Montgomerie-Corcoran"
   given-names: "Alexander"
 title: "harflow3d"
-version: 0.1
+version: 0.1.0
 doi: 10.5281/zenodo.7810779
 date-released: 2023-04-08
 url: "https://github.com/ptoupas/harflow3d"
