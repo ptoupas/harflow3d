@@ -5,8 +5,12 @@ authors:
   given-names: "Petros"
 - family-names: "Montgomerie-Corcoran"
   given-names: "Alexander"
-title: "HARFLOW3D"
-version: 0.1.0
+- family-names: "Bouganis"
+  given-names: "Christos-Savvas"
+- family-names: "Tzovaras"
+  given-names: "Dimitrios"
+title: "HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices"
+version: 0.1.1
 doi: 10.5281/zenodo.7811984
 date-released: 2023-04-08
 url: "https://github.com/ptoupas/harflow3d"
