@@ -22,9 +22,9 @@ preferred-citation:
   - family-names: "Tzovaras"
     given-names: "Dimitrios"
   doi: 10.48550/arXiv.2303.17218
-  journal: arXiv preprint arXiv:2303.17218
+  journal: "arXiv preprint arXiv:2303.17218"
   month: 4
   start: 1 # First page number
   end: 11 # Last page number
-  title: HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices
+  title: "HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices"
   year: 2023
