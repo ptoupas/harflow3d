@@ -4,6 +4,11 @@
 
 A tool for automated mapping and optimization of 3D-CNNs for HAR onto FPGA devices
 
+<div align="center">
+  <img src="https://github.com/ptoupas/harflow3d/raw/main/resources/resource_performance_pareto.gif" width="500px"/><br>
+    <p style="font-size:1.5vw;">Resources (LUT, DSP, FF, BRAM) against Latency graphs during the Design Space Exproration</p>
+</div>
+
 ## Cloning the repository
 In order to clone the repository, you can use the following command:
 
