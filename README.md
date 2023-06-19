@@ -1,9 +1,9 @@
 [![DOI](https://zenodo.org/badge/625183669.svg)](https://zenodo.org/badge/latestdoi/625183669)
 <div>
-<a href="https://www.fccm.org/artifact-evaluation-2023/" title="FCCM Artifact Evaluation Badge"><img src="https://github.com/ptoupas/harflow3d/blob/main/resources/ORO_FCCM_badge.png" width="30px" alt="ORO badge"></a>
+<a href="https://www.fccm.org/artifact-evaluation-2023/" title="FCCM Artifact Evaluation Badge"><img src="https://github.com/ptoupas/harflow3d/blob/main/resources/ORO_FCCM_badge.png" width="30px" alt="ORO badge"></a> FCCM'23 Artifact Evaluation ORO Badge
 </div>
 <div>
-<a href="https://www.fccm.org/artifact-evaluation-2023/" title="FCCM Artifact Evaluation Badge"><img src="https://github.com/ptoupas/harflow3d/blob/main/resources/ROR_FCCM_badge.png" width="30px" alt="ROR badge"></a>
+<a href="https://www.fccm.org/artifact-evaluation-2023/" title="FCCM Artifact Evaluation Badge"><img src="https://github.com/ptoupas/harflow3d/blob/main/resources/ROR_FCCM_badge.png" width="30px" alt="ROR badge"></a> FCCM'23 Artifact Evaluation ROR Badge
 </div>
 
 # HARFLOW3D
