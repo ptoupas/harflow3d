@@ -1,6 +1,11 @@
-[![DOI](https://zenodo.org/badge/625183669.svg)](https://zenodo.org/badge/latestdoi/625183669)
+[![DOI](https://zenodo.org/badge/625183669.svg)](https://zenodo.org/badge/latestdoi/625183669) [![ORO](https://github.com/ptoupas/harflow3d/blob/main/resources/ORO_FCCM_badge.png)](https://www.fccm.org/artifact-evaluation-2023/) [![ROR](https://github.com/ptoupas/harflow3d/blob/main/resources/ROR_FCCM_badge.png)](https://www.fccm.org/artifact-evaluation-2023/)
 
 # HARFLOW3D
+
+<div align="center">
+  <img src="https://github.com/ptoupas/harflow3d/blob/main/resources/dataflow_harflow3d.png" width="500px"/><br>
+    <p style="font-size:1.5vw;">High level description of the HARFLOW3D framework</p>
+</div>
 
 A tool for automated mapping and optimization of 3D-CNNs for HAR onto FPGA devices
 
