@@ -170,11 +170,12 @@ This will start a container and give you access to a shell inside the container.
 If you find this project useful in your research, please consider cite:
 
 ```BibTeX
-@article{toupas2023harflow3d,
-  title={HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices},
+@inproceedings{toupas2023harflow3d,
+  title={HARFLOW3D: A Latency-Oriented 3D-CNN Accelerator Toolflow for HAR on FPGA Devices}, 
   author={Toupas, Petros and Montgomerie-Corcoran, Alexander and Bouganis, Christos-Savvas and Tzovaras, Dimitrios},
-  doi={10.48550/arXiv.2303.17218},
-  journal={arXiv preprint arXiv:2303.17218},
-  year={2023}
+  booktitle={2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)}, 
+  year={2023},
+  pages={144-154},
+  doi={10.1109/FCCM57271.2023.00024}
 }
 ```
